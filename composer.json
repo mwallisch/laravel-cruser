@@ -1,0 +1,25 @@
+{
+  "name": "mwallisch/laravel-cruser",
+  "description": "Create users for your laravel project from the command line.",
+  "keywords": ["laravel5", "artisan", "console", "users"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Markus Wallisch",
+      "email": "markus.wallisch@interactives.eu"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": ">=5.1",
+    "illuminate/console": ">=5.1",
+    "nesbot/carbon": ">=1.21"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Ives\\": "src"
+    }
+  },
+  "autoload-dev": {}
+}
