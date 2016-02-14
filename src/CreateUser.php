@@ -1,6 +1,6 @@
 <?php
 
-namespace Ives\Laravel\Console;
+namespace App\Console\Commands;
 
 use Carbon\Carbon;
 use Illuminate\Console\Command;
