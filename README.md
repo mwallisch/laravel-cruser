@@ -33,10 +33,10 @@ the class within your applications Console Kernel Class
 **Change namespace**
 If you have changed the name of your Application you will need to modify the namespace of the CreateUser Class accordingly.
 
-**Good to go**
+## good to go
 The CreateUser Command acts as template, just extend / modify the code to suit your needs. Out of the box it works with the users table that is created by laravels default users migration.
 
-**Usage**
+## usage
 Pass email and name of the user as arguments, you will be prompted for the password.
 `php artisan db:create-user email@example.com "Jane Doe"`
 
